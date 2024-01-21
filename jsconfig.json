@@ -1,0 +1,50 @@
+{
+    "exclude": ["node_modules", "build-dev", "build-public", ".next"],
+    "compilerOptions": {
+        "baseUrl": ".",
+        "paths": {
+            "@root/*": [
+                "./*"
+            ],
+            "@src/*": [
+                "./*"
+            ],
+            "@helpers/*": [
+                "./helpers/*"
+            ],
+            "@clientHelpers/*": [
+                "./helpers/client/*"
+            ],
+            "@clientHelpers": [
+                "./helpers/client"
+            ],
+            "@serverHelpers/*": [
+                "./helpers/server/*"
+            ],
+            "@serverHelpers": [
+                "./helpers/server"
+            ],
+            "@commonHelpers/*": [
+                "./helpers/common/*"
+            ],
+            "@commonHelpers": [
+                "./helpers/common"
+            ],
+            "@pageMiddlewares/*": [
+                "pageMiddlewares/*"
+            ],
+            "@api/*": [
+                "app/api/*"
+            ],
+            "@components/*": [
+                "components/*"
+            ],
+            "@public/*": [
+                "public/*"
+            ],
+            "@assets/*": [
+                "public/assets/*"
+            ],
+        }
+    },
+}

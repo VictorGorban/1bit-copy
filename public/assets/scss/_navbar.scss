@@ -1,0 +1,100 @@
+@use "variables" as *;
+
+@at-root {
+  .menu-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+
+    z-index: 1000; // логика z-index: До 100 это обычные элементы, плюс выпадающие меню. От 100 до 999 это модалки.
+    pointer-events: none;
+    opacity: 0;
+    background: color("black");
+  }
+
+  body.sidebar-open {
+    .menu-overlay {
+      pointer-events: all;
+      opacity: 0.5;
+    }
+  }
+
+  .navbar {
+    padding: 0.5rem 1rem;
+  }
+
+  .navbar-toggler {
+    display: flex;
+    position: absolute;
+    right: 10px;
+    top: 15px;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+  }
+
+  @media only screen and (max-width: 650px) {
+    button.navbar-toggler {
+      padding-right: 0;
+    }
+  }
+
+  // .navbar-toggler-icon {
+  //     width: 60px;
+  //     height: 60px;
+  //     background-image: url(/assets/img/icons/hamburger_menu.svg);
+  // }
+
+  .menu .nav-item .link {
+    display: inline-block;
+    padding: 15px 20px;
+    width: 100%;
+    height: 100%;
+  }
+
+  .menu hr {
+    width: calc(100% - 20px * 2);
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+
+  .right-menu-wrapper {
+    $menu-width: 440px;
+
+    height: 100vh;
+    min-height: 100vh;
+    position: fixed;
+    max-width: 100%;
+
+    width: $menu-width;
+    top: 0;
+    right: -$menu-width;
+    z-index: 1001;
+
+    background: color("brand");
+
+    &.open {
+      right: 0;
+      // pointer-events: all;
+      // .overlay {
+      //   transition: background 0.5s ease-out;
+      //   background: rgba(0, 0, 0, 0.5);
+      // }
+
+      // .menu {
+      //   transition: margin-left 0.35s ease-out;
+      //   margin-left: 0;
+      // }
+    }
+
+    &.closing {
+      .menu {
+        right: -$menu-width;
+      }
+    }
+  }
+}

@@ -1,0 +1,25 @@
+@use "variables" as *;
+
+// at-root позволяет определять и работать с file-scoped variables
+@at-root {
+  // /* color helpers */
+  $colors: "white", "black", "brand", "brand1", "brand2", "brand3", "gray",
+    "gray1", "gray2", "green", "red", "red2", "yellow", "blue", "none";
+
+  @each $color in $colors {
+    .border-#{$color} {
+      border: 1px solid color($color) !important;
+    }
+    .border-color-#{$color} {
+      border-color: color($color) !important;
+    }
+    .color-#{$color} {
+      color: color($color) !important;
+    }
+    .bg-#{$color} {
+      background: color($color) !important;
+    }
+  }
+
+  /* endof color helpers */
+}

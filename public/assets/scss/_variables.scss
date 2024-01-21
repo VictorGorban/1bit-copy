@@ -1,0 +1,37 @@
+@use "sass:map";
+
+$colors: (
+    // использую строки как ключи, в scss без этого никак.
+  "none": none,
+  "transparent": transparent,
+  "white": #fff,
+  "black": rgba(14, 12, 21, 1), // в этой теме черный цвет (фон) не совсем черный.
+
+  // по насыщенности цвета, по убыванию:
+  "brand": rgba(18, 24, 37, 1),
+  "brand1": rgba(18, 24, 37, 1),
+  "brand2": rgba(28, 100, 242, 1),
+
+  "dark": rgba(18, 24, 37, 1),
+  "gray": rgba(156, 163, 175, 1),
+  "gray1": rgba(156, 163, 175, 1),
+  "gray2": rgba(49, 62, 98, 1),
+  // "gray2": #666666,
+  // "gray3": #6b8096,
+
+  "green": #26b99a,
+  "red": #ff1414,
+  "red2": #eb5757,
+  "yellow": #ffd172,
+  "warning": #ffd172,
+  "blue": blue,
+);
+
+@function color($key) {
+  @if map-has-key($colors, $key) {
+    @return map-get($colors, $key);
+  }
+
+  @warn "Unknown `#{$key}` in $colors.";
+  @return "not-found";
+}

@@ -1,0 +1,537 @@
+<mxfile host="app.diagrams.net" modified="2023-10-24T20:05:57.439Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.5845.888 YaBrowser/23.9.2.888 Yowser/2.5 Safari/537.36" etag="2KzhDHzX3nfpduyYvWHK" version="22.0.6" type="gitlab">
+  <diagram name="Page-1" id="MBO-P5Y1HzqA7RYM4HyY">
+    <mxGraphModel dx="2625" dy="1838" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="9fvd_wX8vET_f8guwksP-25" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Условные обозначения&lt;/font&gt;" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="50" y="-10" width="390" height="601" as="geometry">
+            <mxRectangle x="80" y="100" width="390" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9fvd_wX8vET_f8guwksP-26" value="Бинарные данные" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/nuvola2/128x128/mimetypes/binary.png" parent="9fvd_wX8vET_f8guwksP-25" vertex="1">
+          <mxGeometry x="76" y="30" width="68" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="9fvd_wX8vET_f8guwksP-27" value="Строковая или числовая небинарная информация." style="rounded=0;whiteSpace=wrap;html=1;" parent="9fvd_wX8vET_f8guwksP-25" vertex="1">
+          <mxGeometry x="190" y="38" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9fvd_wX8vET_f8guwksP-28" value="Некий процесс в подробностях" style="swimlane;whiteSpace=wrap;html=1;" parent="9fvd_wX8vET_f8guwksP-25" vertex="1">
+          <mxGeometry x="10" y="128" width="200" height="90" as="geometry">
+            <mxRectangle x="80" y="100" width="390" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9fvd_wX8vET_f8guwksP-29" value="if-Разветвление" style="rhombus;whiteSpace=wrap;html=1;" parent="9fvd_wX8vET_f8guwksP-25" vertex="1">
+          <mxGeometry x="259" y="280" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="9fvd_wX8vET_f8guwksP-30" value="Описание структуры данных" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="9fvd_wX8vET_f8guwksP-25" vertex="1">
+          <mxGeometry x="10" y="250" width="140" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="9fvd_wX8vET_f8guwksP-31" value="Item 1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="9fvd_wX8vET_f8guwksP-30" vertex="1">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9fvd_wX8vET_f8guwksP-32" value="Item 2" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="9fvd_wX8vET_f8guwksP-30" vertex="1">
+          <mxGeometry y="60" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9fvd_wX8vET_f8guwksP-33" value="Item 3" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="9fvd_wX8vET_f8guwksP-30" vertex="1">
+          <mxGeometry y="90" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9fvd_wX8vET_f8guwksP-35" value="Некий процесс, не требующий дополнительного описания или уже описанный где-то в отдельном блоке" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="9fvd_wX8vET_f8guwksP-25" vertex="1">
+          <mxGeometry x="240" y="120" width="130" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="9fvd_wX8vET_f8guwksP-50" value="Комментарий" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=center;" parent="9fvd_wX8vET_f8guwksP-25" vertex="1">
+          <mxGeometry x="10" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9fvd_wX8vET_f8guwksP-52" value="Веб-сервер или облачный сервис" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;align=center;" parent="9fvd_wX8vET_f8guwksP-25" vertex="1">
+          <mxGeometry x="240" y="380" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="9fvd_wX8vET_f8guwksP-109" value="Текстовый файл" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/octicons/1024/file-text-128.png" parent="9fvd_wX8vET_f8guwksP-25" vertex="1">
+          <mxGeometry x="31" y="481" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="9fvd_wX8vET_f8guwksP-110" value="Бинарный файл" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/octicons/1024/file-binary-128.png" parent="9fvd_wX8vET_f8guwksP-25" vertex="1">
+          <mxGeometry x="270" y="480" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="9fvd_wX8vET_f8guwksP-95" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Сохранение обновленных данных&lt;/font&gt;" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="50" y="1250" width="560" height="570" as="geometry" />
+        </mxCell>
+        <mxCell id="9fvd_wX8vET_f8guwksP-101" value="На клиенте существует 2 файла ключа: исходный (json файл без шифрования), и бинарный.&lt;br&gt;Исходный json-файл клиент получает по почте, например. Это просто ID ключа, плюс возможная дополнительная информация типа срока действия. Только публичные данные.&lt;br&gt;&lt;br&gt;Бинарный зашифрованный файл хранит полную и актуальную информацию: ID ключа, время отключения, подпись устройства, и публичный ключ RSA для проверки подписи. При проверке активации в оффлайне используется информация только из бинарного файла" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=center;" parent="9fvd_wX8vET_f8guwksP-95" vertex="1">
+          <mxGeometry x="420" y="40" width="120" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="9fvd_wX8vET_f8guwksP-107" value="json-файл ключа" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.azure.file" parent="9fvd_wX8vET_f8guwksP-95" vertex="1">
+          <mxGeometry x="46.5" y="470" width="47" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="9fvd_wX8vET_f8guwksP-108" value="бинарный файл ключа" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.azure.file" parent="9fvd_wX8vET_f8guwksP-95" vertex="1">
+          <mxGeometry x="276" y="470" width="47" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="9fvd_wX8vET_f8guwksP-135" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="9fvd_wX8vET_f8guwksP-95" source="9fvd_wX8vET_f8guwksP-112" target="9fvd_wX8vET_f8guwksP-128" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9fvd_wX8vET_f8guwksP-147" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="9fvd_wX8vET_f8guwksP-95" source="9fvd_wX8vET_f8guwksP-112" target="9fvd_wX8vET_f8guwksP-143" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="297" y="190" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9fvd_wX8vET_f8guwksP-112" value="Информация о ключе с сервера" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="9fvd_wX8vET_f8guwksP-95" vertex="1">
+          <mxGeometry x="20" y="40" width="170" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="9fvd_wX8vET_f8guwksP-113" value="keyString:string - ключ" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="9fvd_wX8vET_f8guwksP-112" vertex="1">
+          <mxGeometry y="30" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9fvd_wX8vET_f8guwksP-114" value="validUntil:Date" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="9fvd_wX8vET_f8guwksP-112" vertex="1">
+          <mxGeometry y="60" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9fvd_wX8vET_f8guwksP-115" value="signature:Binary" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="9fvd_wX8vET_f8guwksP-112" vertex="1">
+          <mxGeometry y="90" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9fvd_wX8vET_f8guwksP-125" value="publicKey:string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="9fvd_wX8vET_f8guwksP-112" vertex="1">
+          <mxGeometry y="120" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9fvd_wX8vET_f8guwksP-126" value="status:string - статус активации, успех или нет" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="9fvd_wX8vET_f8guwksP-112" vertex="1">
+          <mxGeometry y="150" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9fvd_wX8vET_f8guwksP-127" value="... инфа о владельце (компания, пользователь)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="9fvd_wX8vET_f8guwksP-112" vertex="1">
+          <mxGeometry y="180" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9fvd_wX8vET_f8guwksP-128" value="Публичная информация" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="9fvd_wX8vET_f8guwksP-95" vertex="1">
+          <mxGeometry x="20" y="280" width="170" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="9fvd_wX8vET_f8guwksP-129" value="keyString:string - ключ" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="9fvd_wX8vET_f8guwksP-128" vertex="1">
+          <mxGeometry y="30" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9fvd_wX8vET_f8guwksP-130" value="validUntil:Date" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="9fvd_wX8vET_f8guwksP-128" vertex="1">
+          <mxGeometry y="60" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9fvd_wX8vET_f8guwksP-133" value="status:string - статус активации, успех или нет" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="9fvd_wX8vET_f8guwksP-128" vertex="1">
+          <mxGeometry y="90" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9fvd_wX8vET_f8guwksP-136" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.47;entryY=0.18;entryDx=0;entryDy=0;entryPerimeter=0;" parent="9fvd_wX8vET_f8guwksP-95" source="9fvd_wX8vET_f8guwksP-128" target="9fvd_wX8vET_f8guwksP-107" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9fvd_wX8vET_f8guwksP-145" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="9fvd_wX8vET_f8guwksP-95" source="9fvd_wX8vET_f8guwksP-142" target="9fvd_wX8vET_f8guwksP-143" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9fvd_wX8vET_f8guwksP-142" value="Секрет приложения" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/nuvola2/128x128/mimetypes/binary.png" parent="9fvd_wX8vET_f8guwksP-95" vertex="1">
+          <mxGeometry x="311" y="180" width="53" height="53" as="geometry" />
+        </mxCell>
+        <mxCell id="9fvd_wX8vET_f8guwksP-143" value="Зашифрованная &lt;br&gt;информация для возможности&lt;br&gt;&amp;nbsp;проверки устройства в оффлайне" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/nuvola2/128x128/mimetypes/binary.png" parent="9fvd_wX8vET_f8guwksP-95" vertex="1">
+          <mxGeometry x="270" y="323.5" width="53" height="53" as="geometry" />
+        </mxCell>
+        <mxCell id="9fvd_wX8vET_f8guwksP-144" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="9fvd_wX8vET_f8guwksP-95" source="9fvd_wX8vET_f8guwksP-143" target="9fvd_wX8vET_f8guwksP-108" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9fvd_wX8vET_f8guwksP-148" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Проверка активации устройства&lt;/font&gt;" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="700" y="1250" width="560" height="610" as="geometry" />
+        </mxCell>
+        <mxCell id="9fvd_wX8vET_f8guwksP-149" value="Приложение-клиент проводит эту проверку в случае если сервер активации по какой-то причине недоступен.&lt;br&gt;&lt;br&gt;Сервер проводит аналогичную проверку каждый раз когда клиент за этим обращается (в демонстрационном приложении это при каждом включении, для получения обновлений информации о ключе, если такие есть)" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=center;" parent="9fvd_wX8vET_f8guwksP-148" vertex="1">
+          <mxGeometry x="420" y="40" width="120" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="9fvd_wX8vET_f8guwksP-175" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="9fvd_wX8vET_f8guwksP-148" source="9fvd_wX8vET_f8guwksP-150" target="9fvd_wX8vET_f8guwksP-171" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9fvd_wX8vET_f8guwksP-176" value="ID ключа" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="9fvd_wX8vET_f8guwksP-175" vertex="1" connectable="0">
+          <mxGeometry x="0.0979" y="-2" relative="1" as="geometry">
+            <mxPoint y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9fvd_wX8vET_f8guwksP-150" value="json-файл ключа" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.azure.file" parent="9fvd_wX8vET_f8guwksP-148" vertex="1">
+          <mxGeometry x="46.5" y="50" width="47" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="9fvd_wX8vET_f8guwksP-172" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="9fvd_wX8vET_f8guwksP-148" source="9fvd_wX8vET_f8guwksP-151" target="9fvd_wX8vET_f8guwksP-171" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9fvd_wX8vET_f8guwksP-174" value="информация, полученная &lt;br&gt;раннее с сервера" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="9fvd_wX8vET_f8guwksP-172" vertex="1" connectable="0">
+          <mxGeometry x="-0.062" y="-3" relative="1" as="geometry">
+            <mxPoint x="-2" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9fvd_wX8vET_f8guwksP-151" value="бинарный файл ключа" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.azure.file" parent="9fvd_wX8vET_f8guwksP-148" vertex="1">
+          <mxGeometry x="170" y="50" width="47" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="9fvd_wX8vET_f8guwksP-166" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="9fvd_wX8vET_f8guwksP-148" source="9fvd_wX8vET_f8guwksP-167" target="9fvd_wX8vET_f8guwksP-171" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="296.49999999999955" y="323.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9fvd_wX8vET_f8guwksP-167" value="Секрет приложения" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/nuvola2/128x128/mimetypes/binary.png" parent="9fvd_wX8vET_f8guwksP-148" vertex="1">
+          <mxGeometry x="330" y="160" width="53" height="53" as="geometry" />
+        </mxCell>
+        <mxCell id="9fvd_wX8vET_f8guwksP-179" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="9fvd_wX8vET_f8guwksP-148" source="9fvd_wX8vET_f8guwksP-170" target="9fvd_wX8vET_f8guwksP-178" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9fvd_wX8vET_f8guwksP-181" value="Публичный ключ RSA, &lt;br&gt;подпись" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="9fvd_wX8vET_f8guwksP-179" vertex="1" connectable="0">
+          <mxGeometry x="-0.049" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9fvd_wX8vET_f8guwksP-170" value="Расшифрованная информация, отправленная раннее сервером" style="rounded=0;whiteSpace=wrap;html=1;" parent="9fvd_wX8vET_f8guwksP-148" vertex="1">
+          <mxGeometry x="135" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9fvd_wX8vET_f8guwksP-173" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="9fvd_wX8vET_f8guwksP-148" source="9fvd_wX8vET_f8guwksP-171" target="9fvd_wX8vET_f8guwksP-170" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9fvd_wX8vET_f8guwksP-171" value="Дешифрование, проверка соответствия данных из бинарного файла и публичного json-файла" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="9fvd_wX8vET_f8guwksP-148" vertex="1">
+          <mxGeometry x="140" y="200" width="110" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="9fvd_wX8vET_f8guwksP-180" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="9fvd_wX8vET_f8guwksP-148" source="9fvd_wX8vET_f8guwksP-177" target="9fvd_wX8vET_f8guwksP-178" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9fvd_wX8vET_f8guwksP-177" value="Информация о железе. Должна совпадать с той что &quot;зашита&quot; в подписи устройства." style="rounded=0;whiteSpace=wrap;html=1;" parent="9fvd_wX8vET_f8guwksP-148" vertex="1">
+          <mxGeometry x="10" y="520" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9fvd_wX8vET_f8guwksP-178" value="Проверка соответствия подписи устройства и данных об устройстве" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="9fvd_wX8vET_f8guwksP-148" vertex="1">
+          <mxGeometry x="360" y="504" width="94" height="94" as="geometry" />
+        </mxCell>
+        <mxCell id="9fvd_wX8vET_f8guwksP-182" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Активация/регистрация устройства на сервере&lt;/font&gt;" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1340" y="1250" width="560" height="900" as="geometry" />
+        </mxCell>
+        <mxCell id="9fvd_wX8vET_f8guwksP-183" value="Все мы знаем, что такое RSA и подпись. Это пара публичный/приватный ключ, где приватный используется для генерации подписи, а публичный может быть использован только для проверки корректности подписи.&lt;br&gt;&lt;br&gt;Особенность в том, что и подпись, и секрет для дальнейшего шифрования этой подписи генерируется на основе не только&amp;nbsp; стандартного рандомного секрета, но и с использованием данных об устройстве, а также строкового значения ключа.&lt;br&gt;&lt;br&gt;Таким образом повышается уникальность подписи и усложняется обход защиты приложения, ествественно без наличия исходного кода.." style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=center;" parent="9fvd_wX8vET_f8guwksP-182" vertex="1">
+          <mxGeometry x="430" y="28" width="120" height="622" as="geometry" />
+        </mxCell>
+        <mxCell id="9fvd_wX8vET_f8guwksP-203" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="9fvd_wX8vET_f8guwksP-182" source="9fvd_wX8vET_f8guwksP-200" target="9fvd_wX8vET_f8guwksP-202" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9fvd_wX8vET_f8guwksP-200" value="Id ключа" style="rounded=0;whiteSpace=wrap;html=1;" parent="9fvd_wX8vET_f8guwksP-182" vertex="1">
+          <mxGeometry x="10" y="45" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9fvd_wX8vET_f8guwksP-211" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="9fvd_wX8vET_f8guwksP-182" source="9fvd_wX8vET_f8guwksP-201" target="9fvd_wX8vET_f8guwksP-205" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9fvd_wX8vET_f8guwksP-201" value="Шифрованная информация об устройстве" style="rounded=0;whiteSpace=wrap;html=1;" parent="9fvd_wX8vET_f8guwksP-182" vertex="1">
+          <mxGeometry x="240" y="45" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9fvd_wX8vET_f8guwksP-207" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="9fvd_wX8vET_f8guwksP-182" source="9fvd_wX8vET_f8guwksP-202" target="9fvd_wX8vET_f8guwksP-206" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9fvd_wX8vET_f8guwksP-202" value="Проверка существования и актуальности самого ключа" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="9fvd_wX8vET_f8guwksP-182" vertex="1">
+          <mxGeometry x="27.5" y="150" width="85" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="9fvd_wX8vET_f8guwksP-205" value="Дешифрование данных об устройстве" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="9fvd_wX8vET_f8guwksP-182" vertex="1">
+          <mxGeometry x="260" y="225" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="9fvd_wX8vET_f8guwksP-213" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="9fvd_wX8vET_f8guwksP-182" source="9fvd_wX8vET_f8guwksP-206" target="9fvd_wX8vET_f8guwksP-212" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9fvd_wX8vET_f8guwksP-220" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="9fvd_wX8vET_f8guwksP-182" source="9fvd_wX8vET_f8guwksP-206" target="9fvd_wX8vET_f8guwksP-208" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9fvd_wX8vET_f8guwksP-206" value="Серверные данные ключа" style="rounded=0;whiteSpace=wrap;html=1;" parent="9fvd_wX8vET_f8guwksP-182" vertex="1">
+          <mxGeometry x="10" y="250" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9fvd_wX8vET_f8guwksP-210" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="9fvd_wX8vET_f8guwksP-182" source="9fvd_wX8vET_f8guwksP-208" target="9fvd_wX8vET_f8guwksP-205" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9fvd_wX8vET_f8guwksP-208" value="Секрет защиты передачи" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/nuvola2/128x128/mimetypes/binary.png" parent="9fvd_wX8vET_f8guwksP-182" vertex="1">
+          <mxGeometry x="170" y="238.5" width="53" height="53" as="geometry" />
+        </mxCell>
+        <mxCell id="9fvd_wX8vET_f8guwksP-224" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="9fvd_wX8vET_f8guwksP-182" source="9fvd_wX8vET_f8guwksP-217" target="9fvd_wX8vET_f8guwksP-222" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9fvd_wX8vET_f8guwksP-217" value="Данные устройства и ID приложения, предоставленные приложением-клиентом" style="rounded=0;whiteSpace=wrap;html=1;" parent="9fvd_wX8vET_f8guwksP-182" vertex="1">
+          <mxGeometry x="240" y="363" width="137.5" height="57" as="geometry" />
+        </mxCell>
+        <mxCell id="9fvd_wX8vET_f8guwksP-223" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="9fvd_wX8vET_f8guwksP-182" source="9fvd_wX8vET_f8guwksP-212" target="9fvd_wX8vET_f8guwksP-222" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9fvd_wX8vET_f8guwksP-212" value="Известные устройства" style="rounded=0;whiteSpace=wrap;html=1;" parent="9fvd_wX8vET_f8guwksP-182" vertex="1">
+          <mxGeometry x="25" y="326.5" width="90" height="36.5" as="geometry" />
+        </mxCell>
+        <mxCell id="9fvd_wX8vET_f8guwksP-221" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.425;entryY=0.078;entryDx=0;entryDy=0;entryPerimeter=0;" parent="9fvd_wX8vET_f8guwksP-182" source="9fvd_wX8vET_f8guwksP-205" target="9fvd_wX8vET_f8guwksP-217" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9fvd_wX8vET_f8guwksP-226" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="9fvd_wX8vET_f8guwksP-182" source="9fvd_wX8vET_f8guwksP-222" target="9fvd_wX8vET_f8guwksP-225" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9fvd_wX8vET_f8guwksP-222" value="Проверка регистрации устройства в ключе" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="9fvd_wX8vET_f8guwksP-182" vertex="1">
+          <mxGeometry x="130" y="410" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="9fvd_wX8vET_f8guwksP-233" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="9fvd_wX8vET_f8guwksP-182" source="9fvd_wX8vET_f8guwksP-225" target="9fvd_wX8vET_f8guwksP-230" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9fvd_wX8vET_f8guwksP-234" value="Нет" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="9fvd_wX8vET_f8guwksP-233" vertex="1" connectable="0">
+          <mxGeometry x="-0.146" y="-2" relative="1" as="geometry">
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9fvd_wX8vET_f8guwksP-291" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="9fvd_wX8vET_f8guwksP-182" source="9fvd_wX8vET_f8guwksP-225" target="9fvd_wX8vET_f8guwksP-289" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="73" y="570" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9fvd_wX8vET_f8guwksP-225" value="Устройство с предоставленными данными известно?" style="rhombus;whiteSpace=wrap;html=1;" parent="9fvd_wX8vET_f8guwksP-182" vertex="1">
+          <mxGeometry x="115" y="520" width="110" height="112" as="geometry" />
+        </mxCell>
+        <mxCell id="9fvd_wX8vET_f8guwksP-229" value="Шифрование актуальных данных о ключе, подписи и публичном ключе и выдача их клиенту" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="9fvd_wX8vET_f8guwksP-182" vertex="1">
+          <mxGeometry x="123" y="780" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="9fvd_wX8vET_f8guwksP-236" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="9fvd_wX8vET_f8guwksP-182" source="9fvd_wX8vET_f8guwksP-230" target="9fvd_wX8vET_f8guwksP-229" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="310" y="830" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9fvd_wX8vET_f8guwksP-230" value="Генерация подписи и сопутствующей инфы об устройстве, сохранение" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="9fvd_wX8vET_f8guwksP-182" vertex="1">
+          <mxGeometry x="250" y="640" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="9fvd_wX8vET_f8guwksP-292" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="9fvd_wX8vET_f8guwksP-182" source="9fvd_wX8vET_f8guwksP-289" target="9fvd_wX8vET_f8guwksP-229" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9fvd_wX8vET_f8guwksP-289" value="Проверка подписи устройства" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="9fvd_wX8vET_f8guwksP-182" vertex="1">
+          <mxGeometry x="23" y="650" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="9fvd_wX8vET_f8guwksP-237" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Генерация подписи устройства&lt;/font&gt;" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1980" y="1250" width="660" height="590" as="geometry" />
+        </mxCell>
+        <mxCell id="9fvd_wX8vET_f8guwksP-273" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="9fvd_wX8vET_f8guwksP-237" source="9fvd_wX8vET_f8guwksP-240" target="9fvd_wX8vET_f8guwksP-268" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="80" y="350" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9fvd_wX8vET_f8guwksP-240" value="Приватный ключ RSA" style="rounded=0;whiteSpace=wrap;html=1;" parent="9fvd_wX8vET_f8guwksP-237" vertex="1">
+          <mxGeometry x="10" y="45" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9fvd_wX8vET_f8guwksP-270" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="9fvd_wX8vET_f8guwksP-237" source="9fvd_wX8vET_f8guwksP-242" target="9fvd_wX8vET_f8guwksP-268" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9fvd_wX8vET_f8guwksP-242" value="validUntil - срок актуальности устройства или ключа, в зависимости от настроек ключа" style="rounded=0;whiteSpace=wrap;html=1;" parent="9fvd_wX8vET_f8guwksP-237" vertex="1">
+          <mxGeometry x="170" y="45" width="140" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="9fvd_wX8vET_f8guwksP-271" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="9fvd_wX8vET_f8guwksP-237" source="9fvd_wX8vET_f8guwksP-266" target="9fvd_wX8vET_f8guwksP-268" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9fvd_wX8vET_f8guwksP-266" value="appID - ID приложения-клиента, также отправляется приложением-клиентом. Это строка, сервис активации никак не ограничивает формат этой строки или источник." style="rounded=0;whiteSpace=wrap;html=1;" parent="9fvd_wX8vET_f8guwksP-237" vertex="1">
+          <mxGeometry x="330" y="45" width="120" height="165" as="geometry" />
+        </mxCell>
+        <mxCell id="9fvd_wX8vET_f8guwksP-272" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="9fvd_wX8vET_f8guwksP-237" source="9fvd_wX8vET_f8guwksP-267" target="9fvd_wX8vET_f8guwksP-268" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="530" y="350" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9fvd_wX8vET_f8guwksP-267" value="Данные об устройстве, отправленные приложением-клиентом" style="rounded=0;whiteSpace=wrap;html=1;" parent="9fvd_wX8vET_f8guwksP-237" vertex="1">
+          <mxGeometry x="470" y="45" width="120" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="9fvd_wX8vET_f8guwksP-295" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="9fvd_wX8vET_f8guwksP-237" source="9fvd_wX8vET_f8guwksP-268" target="9fvd_wX8vET_f8guwksP-293" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9fvd_wX8vET_f8guwksP-268" value="Строка для подписи" style="rounded=0;whiteSpace=wrap;html=1;" parent="9fvd_wX8vET_f8guwksP-237" vertex="1">
+          <mxGeometry x="210" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9fvd_wX8vET_f8guwksP-274" value="Подпись устройства, &lt;br&gt;сохраняется на сервере и &lt;br&gt;отправляется клиенту в зашифрованном виде" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/nuvola2/128x128/mimetypes/binary.png" parent="9fvd_wX8vET_f8guwksP-237" vertex="1">
+          <mxGeometry x="397" y="470" width="53" height="53" as="geometry" />
+        </mxCell>
+        <mxCell id="9fvd_wX8vET_f8guwksP-294" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="9fvd_wX8vET_f8guwksP-237" source="9fvd_wX8vET_f8guwksP-293" target="9fvd_wX8vET_f8guwksP-274" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9fvd_wX8vET_f8guwksP-293" value="Подписывание" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="9fvd_wX8vET_f8guwksP-237" vertex="1">
+          <mxGeometry x="230" y="420" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="9fvd_wX8vET_f8guwksP-277" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Проверка подписи устройства&lt;/font&gt;" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="2720" y="1250" width="620" height="590" as="geometry" />
+        </mxCell>
+        <mxCell id="9fvd_wX8vET_f8guwksP-278" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="9fvd_wX8vET_f8guwksP-277" source="9fvd_wX8vET_f8guwksP-279" target="9fvd_wX8vET_f8guwksP-287" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="80" y="350" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9fvd_wX8vET_f8guwksP-279" value="Публичный ключ RSA" style="rounded=0;whiteSpace=wrap;html=1;" parent="9fvd_wX8vET_f8guwksP-277" vertex="1">
+          <mxGeometry x="10" y="45" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9fvd_wX8vET_f8guwksP-280" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="9fvd_wX8vET_f8guwksP-277" source="9fvd_wX8vET_f8guwksP-281" target="9fvd_wX8vET_f8guwksP-287" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9fvd_wX8vET_f8guwksP-281" value="validUntil" style="rounded=0;whiteSpace=wrap;html=1;" parent="9fvd_wX8vET_f8guwksP-277" vertex="1">
+          <mxGeometry x="170" y="45" width="140" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="9fvd_wX8vET_f8guwksP-282" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="9fvd_wX8vET_f8guwksP-277" source="9fvd_wX8vET_f8guwksP-283" target="9fvd_wX8vET_f8guwksP-287" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9fvd_wX8vET_f8guwksP-283" value="appId" style="rounded=0;whiteSpace=wrap;html=1;" parent="9fvd_wX8vET_f8guwksP-277" vertex="1">
+          <mxGeometry x="330" y="45" width="120" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="9fvd_wX8vET_f8guwksP-284" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="9fvd_wX8vET_f8guwksP-277" source="9fvd_wX8vET_f8guwksP-285" target="9fvd_wX8vET_f8guwksP-287" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="530" y="350" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9fvd_wX8vET_f8guwksP-285" value="Данные об устройстве" style="rounded=0;whiteSpace=wrap;html=1;" parent="9fvd_wX8vET_f8guwksP-277" vertex="1">
+          <mxGeometry x="470" y="45" width="120" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="9fvd_wX8vET_f8guwksP-297" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="9fvd_wX8vET_f8guwksP-277" source="9fvd_wX8vET_f8guwksP-287" target="9fvd_wX8vET_f8guwksP-296" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9fvd_wX8vET_f8guwksP-287" value="Строка для проверки подписи" style="rounded=0;whiteSpace=wrap;html=1;" parent="9fvd_wX8vET_f8guwksP-277" vertex="1">
+          <mxGeometry x="210" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9fvd_wX8vET_f8guwksP-299" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="9fvd_wX8vET_f8guwksP-277" source="9fvd_wX8vET_f8guwksP-296" target="9fvd_wX8vET_f8guwksP-298" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9fvd_wX8vET_f8guwksP-296" value="Проверка подписи" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="9fvd_wX8vET_f8guwksP-277" vertex="1">
+          <mxGeometry x="230" y="455" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="9fvd_wX8vET_f8guwksP-298" value="Результат проверки, true/false" style="rounded=0;whiteSpace=wrap;html=1;" parent="9fvd_wX8vET_f8guwksP-277" vertex="1">
+          <mxGeometry x="390" y="465" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9fvd_wX8vET_f8guwksP-300" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Шифрование информации&lt;/font&gt;" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="2100" y="-10" width="680" height="940" as="geometry" />
+        </mxCell>
+        <mxCell id="9fvd_wX8vET_f8guwksP-301" value="Код для программистов:&lt;br&gt;&lt;div&gt;// допустима любая длина ключа секрета, но лучше использовать секрет с длиной 24 байта и больше - получается защита уровня aes-192. Сложность алгоритма не зависит от длины ключа напрямую, увеличивается только уникальность выходного AES ключа.&lt;/div&gt;&lt;div&gt;export function encryptAesPlain(textToEncrypt, secretBytesForAesKey, extraString) {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; let systemWithSecretBytesForKey = Buffer.concat([secretBytesForAesKey, Buffer.from(extraString)])&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; let aesKey = getPseudoRandomKeyFromBuffer(systemWithSecretBytesForKey, 24);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; let aesCtr = new aesjs.ModeOfOperation.ctr(aesKey, new aesjs.Counter(5));&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; let bytesToEncrypt = aesjs.utils.utf8.toBytes(textToEncrypt);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; let encryptedBytes = aesCtr.encrypt(bytesToEncrypt);&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; return Buffer.from(encryptedBytes);&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;export function decryptAesPlain(encryptedBytes, secretBytesForAesKey, extraString) {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; let systemWithSecretBytesForKey = Buffer.concat([secretBytesForAesKey, Buffer.from(extraString)])&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; let aesKey = getPseudoRandomKeyFromBuffer(systemWithSecretBytesForKey, 24);&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; let aesCtr = new aesjs.ModeOfOperation.ctr(aesKey, new aesjs.Counter(5))&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; let decryptedBytes = aesCtr.decrypt(encryptedBytes);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; let decryptedText = aesjs.utils.utf8.fromBytes(decryptedBytes);&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; return decryptedText;&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=left;" parent="9fvd_wX8vET_f8guwksP-300" vertex="1">
+          <mxGeometry x="5" y="550" width="670" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="9fvd_wX8vET_f8guwksP-318" value="Алгоритм аналогичен как для шифрования передачи, так и для шифрования данных с сервера для сохранения в бинарный файл. Разница только в секрете: для шифрования передаваемых между клиентом и сервером активации данных используется &quot;защита передачи&quot;, которая выставляется в редактируемом поле ключа; для шифрования сохраняемых на клиенте данных активации должен использоваться другой секрет, уникальный для каждого приложения. Например, этот секрет приложения может быть разным в каждой версии приложения, и таким образом можно дополнительно реализовать защиту от несанкционированных обновлений." style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=center;" parent="9fvd_wX8vET_f8guwksP-300" vertex="1">
+          <mxGeometry x="510" y="43" width="140" height="497" as="geometry" />
+        </mxCell>
+        <mxCell id="9fvd_wX8vET_f8guwksP-327" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="9fvd_wX8vET_f8guwksP-300" source="9fvd_wX8vET_f8guwksP-320" target="9fvd_wX8vET_f8guwksP-326" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9fvd_wX8vET_f8guwksP-320" value="Строка для шифрования" style="rounded=0;whiteSpace=wrap;html=1;" parent="9fvd_wX8vET_f8guwksP-300" vertex="1">
+          <mxGeometry x="20" y="53" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9fvd_wX8vET_f8guwksP-324" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="9fvd_wX8vET_f8guwksP-300" source="9fvd_wX8vET_f8guwksP-319" target="9fvd_wX8vET_f8guwksP-322" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9fvd_wX8vET_f8guwksP-319" value="Байты секрета" style="rounded=0;whiteSpace=wrap;html=1;" parent="9fvd_wX8vET_f8guwksP-300" vertex="1">
+          <mxGeometry x="190" y="53" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9fvd_wX8vET_f8guwksP-325" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="9fvd_wX8vET_f8guwksP-300" source="9fvd_wX8vET_f8guwksP-321" target="9fvd_wX8vET_f8guwksP-322" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9fvd_wX8vET_f8guwksP-321" value="Доп. строка для генерации AES-ключа (необязательно. Для шифрования отправляемых данных здесь указывался ID лицензии)" style="rounded=0;whiteSpace=wrap;html=1;" parent="9fvd_wX8vET_f8guwksP-300" vertex="1">
+          <mxGeometry x="350" y="53" width="120" height="137" as="geometry" />
+        </mxCell>
+        <mxCell id="9fvd_wX8vET_f8guwksP-328" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="9fvd_wX8vET_f8guwksP-300" source="9fvd_wX8vET_f8guwksP-322" target="9fvd_wX8vET_f8guwksP-326" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9fvd_wX8vET_f8guwksP-329" value="AES-ключ" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="9fvd_wX8vET_f8guwksP-328" vertex="1" connectable="0">
+          <mxGeometry x="-0.049" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9fvd_wX8vET_f8guwksP-322" value="Генерация AES-ключа" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="9fvd_wX8vET_f8guwksP-300" vertex="1">
+          <mxGeometry x="210" y="210" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="9fvd_wX8vET_f8guwksP-331" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="9fvd_wX8vET_f8guwksP-300" source="9fvd_wX8vET_f8guwksP-326" target="9fvd_wX8vET_f8guwksP-330" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9fvd_wX8vET_f8guwksP-326" value="Шифрование" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="9fvd_wX8vET_f8guwksP-300" vertex="1">
+          <mxGeometry x="210" y="350" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="9fvd_wX8vET_f8guwksP-330" value="Зашифрованные данные" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/nuvola2/128x128/mimetypes/binary.png" parent="9fvd_wX8vET_f8guwksP-300" vertex="1">
+          <mxGeometry x="350" y="440" width="53" height="53" as="geometry" />
+        </mxCell>
+        <mxCell id="Fsg_4rlCDMEPb21YXjKY-4" value="Общий алгоритм" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="-10" width="1030" height="940" as="geometry">
+            <mxRectangle x="80" y="100" width="390" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9fvd_wX8vET_f8guwksP-1" value="Любая достаточная информация о железе, например ID устройства, ID биоса, mac-адрес" style="rounded=0;whiteSpace=wrap;html=1;" parent="Fsg_4rlCDMEPb21YXjKY-4" vertex="1">
+          <mxGeometry x="12.25" y="65" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9fvd_wX8vET_f8guwksP-20" value="Секрет приложения" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/nuvola2/128x128/mimetypes/binary.png" parent="Fsg_4rlCDMEPb21YXjKY-4" vertex="1">
+          <mxGeometry x="392.25" y="65" width="53" height="53" as="geometry" />
+        </mxCell>
+        <mxCell id="9fvd_wX8vET_f8guwksP-21" value="Секрет защиты передачи &lt;br&gt;для AES-шифрования передаваемых&lt;br&gt;между клиентом и сервером лицензии данных. &lt;br&gt;На сервере хранится внутри ключа, &lt;br&gt;на приложении-клиенте&amp;nbsp;&lt;br&gt;должен быть указан где-то отдельно" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/nuvola2/128x128/mimetypes/binary.png" parent="Fsg_4rlCDMEPb21YXjKY-4" vertex="1">
+          <mxGeometry x="832.25" y="645" width="53" height="53" as="geometry" />
+        </mxCell>
+        <mxCell id="9fvd_wX8vET_f8guwksP-47" value="Веб-сервер" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;align=center;" parent="Fsg_4rlCDMEPb21YXjKY-4" vertex="1">
+          <mxGeometry x="392.25" y="455" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9fvd_wX8vET_f8guwksP-49" value="При попытке активировать 2 устройства одним ключом, приложение&amp;nbsp; все равно распознает что это другое устройство. На сервере произойдет регистрация нового устройства. При отсутствии интернета, будет показана ошибка активации" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=center;" parent="Fsg_4rlCDMEPb21YXjKY-4" vertex="1">
+          <mxGeometry x="522.25" y="115" width="120" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="9fvd_wX8vET_f8guwksP-61" value="Информация о ключе: статус активации, дата отключения, подпись устройства" style="rounded=0;whiteSpace=wrap;html=1;" parent="Fsg_4rlCDMEPb21YXjKY-4" vertex="1">
+          <mxGeometry x="502.25" y="535" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9fvd_wX8vET_f8guwksP-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="Fsg_4rlCDMEPb21YXjKY-4" source="9fvd_wX8vET_f8guwksP-47" target="9fvd_wX8vET_f8guwksP-61" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="632.25" y="745" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9fvd_wX8vET_f8guwksP-62" value="Зашифрованная информация об устройстве" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/nuvola2/128x128/mimetypes/binary.png" parent="Fsg_4rlCDMEPb21YXjKY-4" vertex="1">
+          <mxGeometry x="155.75" y="326" width="53" height="53" as="geometry" />
+        </mxCell>
+        <mxCell id="9fvd_wX8vET_f8guwksP-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.082;entryY=0.572;entryDx=0;entryDy=0;entryPerimeter=0;" parent="Fsg_4rlCDMEPb21YXjKY-4" source="9fvd_wX8vET_f8guwksP-62" target="9fvd_wX8vET_f8guwksP-47" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="182.25" y="489" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9fvd_wX8vET_f8guwksP-74" value="Получение актуальной информации &lt;br&gt;о ключе и активация устройства" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="9fvd_wX8vET_f8guwksP-73" vertex="1" connectable="0">
+          <mxGeometry x="0.1501" y="5" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Fsg_4rlCDMEPb21YXjKY-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Fsg_4rlCDMEPb21YXjKY-4" source="9fvd_wX8vET_f8guwksP-65" target="9fvd_wX8vET_f8guwksP-47">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="382.25" y="485" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9fvd_wX8vET_f8guwksP-65" value="Ключ активации, полученный по почте" style="rounded=0;whiteSpace=wrap;html=1;" parent="Fsg_4rlCDMEPb21YXjKY-4" vertex="1">
+          <mxGeometry x="322.25" y="355" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9fvd_wX8vET_f8guwksP-76" value="Зашифрованная информация о ключе" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/nuvola2/128x128/mimetypes/binary.png" parent="Fsg_4rlCDMEPb21YXjKY-4" vertex="1">
+          <mxGeometry x="555.75" y="645" width="53" height="53" as="geometry" />
+        </mxCell>
+        <mxCell id="9fvd_wX8vET_f8guwksP-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="Fsg_4rlCDMEPb21YXjKY-4" source="9fvd_wX8vET_f8guwksP-21" target="9fvd_wX8vET_f8guwksP-76" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9fvd_wX8vET_f8guwksP-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="Fsg_4rlCDMEPb21YXjKY-4" source="9fvd_wX8vET_f8guwksP-61" target="9fvd_wX8vET_f8guwksP-76" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9fvd_wX8vET_f8guwksP-81" value="Дешифрованная обновленная информация о ключе" style="rounded=0;whiteSpace=wrap;html=1;" parent="Fsg_4rlCDMEPb21YXjKY-4" vertex="1">
+          <mxGeometry x="312.25" y="641.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9fvd_wX8vET_f8guwksP-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="Fsg_4rlCDMEPb21YXjKY-4" source="9fvd_wX8vET_f8guwksP-76" target="9fvd_wX8vET_f8guwksP-81" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9fvd_wX8vET_f8guwksP-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="Fsg_4rlCDMEPb21YXjKY-4" source="9fvd_wX8vET_f8guwksP-83" target="9fvd_wX8vET_f8guwksP-81" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9fvd_wX8vET_f8guwksP-83" value="Секрет защиты передечи" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/nuvola2/128x128/mimetypes/binary.png" parent="Fsg_4rlCDMEPb21YXjKY-4" vertex="1">
+          <mxGeometry x="52.25" y="542" width="53" height="53" as="geometry" />
+        </mxCell>
+        <mxCell id="9fvd_wX8vET_f8guwksP-87" value="Сохранение обновленных данных" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="Fsg_4rlCDMEPb21YXjKY-4" vertex="1">
+          <mxGeometry x="182.25" y="785" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="9fvd_wX8vET_f8guwksP-89" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="Fsg_4rlCDMEPb21YXjKY-4" source="9fvd_wX8vET_f8guwksP-81" target="9fvd_wX8vET_f8guwksP-87" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9fvd_wX8vET_f8guwksP-100" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="Fsg_4rlCDMEPb21YXjKY-4" source="9fvd_wX8vET_f8guwksP-97" target="9fvd_wX8vET_f8guwksP-62" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9fvd_wX8vET_f8guwksP-97" value="Шифрование информации" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="Fsg_4rlCDMEPb21YXjKY-4" vertex="1">
+          <mxGeometry x="142.25" y="205" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="9fvd_wX8vET_f8guwksP-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="Fsg_4rlCDMEPb21YXjKY-4" source="9fvd_wX8vET_f8guwksP-1" target="9fvd_wX8vET_f8guwksP-97" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fsg_4rlCDMEPb21YXjKY-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Fsg_4rlCDMEPb21YXjKY-4" source="9fvd_wX8vET_f8guwksP-20" target="9fvd_wX8vET_f8guwksP-97">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="419.25" y="205" />
+              <mxPoint x="178.25" y="205" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9fvd_wX8vET_f8guwksP-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" parent="Fsg_4rlCDMEPb21YXjKY-4" source="9fvd_wX8vET_f8guwksP-49" target="9fvd_wX8vET_f8guwksP-97" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="265.25" y="221.49999999999955" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

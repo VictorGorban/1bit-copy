@@ -1,0 +1,12 @@
+{
+    "files.exclude": {
+        "**/.git": true,
+        "**/.DS_Store": true,
+        "**/node_modules": true,
+        ".next": true,
+        "build": true,
+        "build_public": true,
+        "build_dev": true,
+    },
+    "explorer.excludeGitIgnore": true
+}

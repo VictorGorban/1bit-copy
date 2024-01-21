@@ -1,0 +1,192 @@
+@use "variables" as *;
+
+@at-root {
+  .table-scroll-wrapper {
+    overflow-x: auto;
+  }
+
+  .table {
+    color: inherit;
+    /* min-width: 850px; */
+    // width: 100%;
+  }
+
+  .table .thead {
+    border-bottom: none;
+    height: 46px;
+
+    .th {
+      font-weight: 600;
+      height: 100%;
+      font-size: 16px;
+      background: color("black");
+      text-align: center;
+      padding: 5px 15px;
+      color: color("gray");
+      &:first-child {
+        border-top-left-radius: 8px;
+        border-bottom-left-radius: 8px;
+      }
+
+      &:last-child {
+        border-top-right-radius: 8px;
+        border-bottom-right-radius: 8px;
+      }
+    }
+
+    &.without-bottom-rounding {
+      .th {
+        &:first-child {
+          border-bottom-left-radius: 0;
+        }
+
+        &:last-child {
+          border-bottom-right-radius: 0;
+        }
+      }
+    }
+  }
+
+  .table .tbody {
+    .tr {
+      color: color("white");
+      background: none;
+      border-bottom: 1px solid color("gray2");
+      font-weight: 500;
+      // transition: transform .2s linear;
+      // transform-origin: -50% 0%;
+
+      &:nth-child(2n) {
+        // background: color("gray4");
+      }
+
+      &:hover {
+        // background: color("gray4");
+        // transform: scale(0.99) translateZ(0) translateX(0);
+      }
+    }
+  }
+
+  .table .table-header .table-span {
+    line-height: 1;
+  }
+
+  .table td {
+    padding: 5px 5px;
+    font-weight: 500;
+    vertical-align: middle;
+  }
+
+  .table tbody td {
+    font-size: 16px;
+    height: 64px;
+    padding: 5px 15px;
+    text-align: center;
+  }
+
+  .table .table-sort {
+    opacity: 0.7;
+  }
+
+  .table .table-sort.active,
+  .table .table-sort:hover {
+    opacity: 1;
+  }
+
+  .table td .border-wrapper {
+    border-bottom: 1px solid color("gray");
+    border-top: 1px solid color("gray");
+    display: flex;
+    height: 70px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10px;
+  }
+
+  .table td:first-child .border-wrapper {
+    /* border-left: 1px solid var(--green_hover); */
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+  }
+
+  .table-pagination.numbers {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.6;
+  }
+
+  .table-pagination.numbers .item {
+    margin: 0 2px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 38px;
+    height: 38px;
+    border: 0;
+    border-radius: 8px;
+    cursor: pointer;
+    border: none;
+    color: color("white");
+    font-weight: 700;
+    flex-shrink: 0;
+    margin-bottom: 10px;
+  }
+
+  @media screen and (min-width: 992px) {
+    .table-pagination.numbers .item {
+      margin-bottom: 0;
+    }
+  }
+
+  .table-pagination.numbers .item:hover {
+    background: color("brand2");
+    // color: color("white");
+    box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.2);
+  }
+
+  .table-pagination.numbers .item.active {
+    pointer-events: none;
+    background: color("brand2");
+    color: color("white");
+  }
+
+  .table-pagination.numbers .item.primary {
+    border: 1px solid transparent; /* Без этого при наведении элемент как бы выталкивается на 4px */
+    background: color("brand1");
+    /* opacity: 0.8; */
+    color: color("white");
+  }
+
+  .table-pagination.numbers .item.disabled,
+  .table-pagination.numbers .item[disabled] {
+    opacity: 1 !important;
+    pointer-events: none;
+  }
+
+  .table-pagination.numbers .item.empty {
+    border: none;
+  }
+
+  .table-pagination.numbers .item.active:hover {
+    cursor: default;
+    box-shadow: none;
+  }
+
+  .table-pagination.numbers .item.empty:hover {
+    cursor: default;
+    box-shadow: none;
+    border: none;
+    background: none;
+    color: color("gray3");
+    font-weight: 500;
+  }
+
+  .table th.th {
+    /* text-align: center; */
+    padding: 5px 5px;
+  }
+  .table td.index {
+    text-align: center;
+  }
+}

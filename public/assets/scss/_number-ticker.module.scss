@@ -1,0 +1,67 @@
+@use "variables" as *;
+
+@at-root {
+  $duration: 0.5s;
+  $easing: ease-in-out;
+
+  :export {
+    duration: $duration;
+    easing: $easing;
+  }
+
+  .animated.number-ticker {
+    display: flex;
+    justify-content: flex-end;
+    overflow: hidden;
+    position: relative;
+    width: max-content;
+    margin: auto;
+
+    //   --duration: 0.5s;
+    //   --easing: ease-in-out;
+
+    .number {
+      line-height: 1;
+    }
+
+    .item {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+    }
+
+    .col {
+      display: flex;
+      align-items: center;
+      position: relative;
+    }
+
+    .inc {
+      top: 100%;
+      transform: translateY(-100%);
+      animation: increase $duration $easing forwards;
+      flex-direction: column-reverse;
+    }
+
+    @keyframes increase {
+      100% {
+        top: 0;
+        transform: translateY(0%);
+      }
+    }
+
+    .dec {
+      top: 0;
+      transform: translateY(0%);
+      animation: decrease $duration $easing forwards;
+      flex-direction: column;
+    }
+
+    @keyframes decrease {
+      100% {
+        top: 100%;
+        transform: translateY(-100%);
+      }
+    }
+  }
+}

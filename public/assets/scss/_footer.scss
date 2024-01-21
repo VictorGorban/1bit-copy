@@ -1,0 +1,28 @@
+@use "variables" as *;
+
+@at-root {
+  .footer .menu {
+    .nav-item {
+      color: color("green");
+      font-weight: 500;
+      font-size: 16px;
+      padding: 0 10px;
+      margin: 0 5px;
+      position: relative;
+      cursor: pointer;
+
+      &:first-child {
+        padding-left: 0;
+      }
+
+      &:last-child {
+        padding-right: 0;
+      }
+
+      &.active,
+      &:hover {
+        color: color("brand2");
+      }
+    }
+  }
+}

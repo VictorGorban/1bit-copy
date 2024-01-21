@@ -1,0 +1,124 @@
+@use "variables" as *;
+
+@at-root {
+  .link {
+    color: inherit;
+    display: inline-block;
+    text-decoration: none;
+  }
+
+  .link:hover {
+    text-decoration: underline;
+    color: inherit;
+    cursor: pointer;
+  }
+
+  .link.style-default {
+    color: color("gray1");
+    &.active {
+      color: color("brand1");
+    }
+  }
+
+  .link.style-green {
+    color: color("green");
+    &.active {
+      color: color("brand2");
+    }
+  }
+
+  .link.disabled:hover,
+  .disabled > .link:hover {
+    text-decoration: none;
+    color: inherit;
+    cursor: not-allowed;
+  }
+
+  .btn {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border: 0;
+    border-width: 2px;
+    border-style: solid;
+    border-color: transparent;
+    padding: 5px 10px;
+    border-radius: 3px;
+
+    &.active,
+    &:hover {
+      cursor: pointer;
+    }
+
+    &:focus {
+      outline: none;
+    }
+  }
+
+  .btn.style-modal-close {
+    position: absolute;
+    background: none;
+    padding: 7px;
+    top: -12px;
+    right: -12px;
+    border-radius: 50px;
+
+    & > img {
+      height: 30px;
+      width: 30px;
+    }
+  }
+
+  .btn.style-default {
+    color: color("gray1");
+    background: color("white");
+    border: 1px solid color("gray2");
+    border-radius: 5px;
+    height: 35px;
+    // text-transform: uppercase;
+  }
+
+  .btn.style-green {
+    color: color("white");
+    background: color("brand2");
+    border: 1px solid color("gray2");
+    border-radius: 5px;
+    height: 35px;
+    // text-transform: uppercase;
+  }
+
+  .btn.style-danger {
+    color: color("white");
+    background: color("red");
+    border: 1px solid color("gray2");
+    border-radius: 5px;
+    height: 35px;
+    // text-transform: uppercase;
+  }
+
+  .btn.style-pagination {
+    color: color("white");
+    background: color("brand3");
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    font-family: var(--font-exo2);
+    font-weight: 700;
+    font-size: 18px;
+    width: 45px;
+    height: 45px;
+
+    &.active {
+      background: color("gray2");
+
+      &.active {
+        cursor: default;
+      }
+    }
+
+    &:hover:not(.active) {
+      background: color("brand1");
+    }
+  }
+}

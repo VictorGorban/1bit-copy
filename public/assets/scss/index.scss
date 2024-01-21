@@ -1,0 +1,30 @@
+@use 'reboot';
+@use 'variables' as *;
+@use 'common';
+@use 'buttons_and_links';
+@use 'tables';
+@use 'navbar';
+@use 'footer';
+@use 'loaders';
+@use 'modals';
+@use 'images';
+
+@use 'notifications';
+@use 'tippy';
+// @use 'number-ticker.module';
+
+// Описание страниц должно быть до шаблонных. Иначе дефолтные стили страницы будут переписывать шаблонные. И, например, form-group mb-15 не будет работаеть.
+@use 'forms';
+@use 'lists';
+
+@use 'colors';
+@use 'date_range';
+@use 'container';
+@use 'width_utilities';
+@use 'margins_paddings';
+@use 'text';
+@use 'borders';
+@use 'display';
+@use 'positions';
+@use 'flex';
+

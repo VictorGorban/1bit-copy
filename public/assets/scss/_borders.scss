@@ -1,0 +1,52 @@
+@use "variables" as *;
+
+@at-root {
+  $max-border-width: 10;
+
+  $radiuses: 0, 1, 2, 3, 5, 6, 8, 10, 15, 18, 20, 25;
+
+  $medias: (
+    "sm": "576px",
+    "md": "768px",
+    "lg": "992px",
+    "xl": "1200px",
+  );
+
+  .border-0 {
+    border-width: 0 !important;
+  }
+
+  .border-none {
+    border: none !important;
+  }
+
+  @for $i from 0 through $max-border-width {
+    .border-width-#{$i} {
+      border-width: $i + px !important;
+    }
+
+    @each $mediaKey, $mediaSize in $medias {
+      @media only screen and (min-width: $mediaSize) {
+        /* all */
+        .border-width-#{$mediaKey}-#{$i} {
+          border-width: $i !important;
+        }
+      }
+    }
+  }
+
+  @each $value in $radiuses {
+    .border-radius-#{$value} {
+      border-radius: $value + px !important;
+    }
+
+    @each $mediaKey, $mediaSize in $medias {
+      @media only screen and (min-width: $mediaSize) {
+        /* all */
+        .border-radius-#{$mediaKey}-#{$value} {
+          border-radius: $value + px !important;
+        }
+      }
+    }
+  }
+}

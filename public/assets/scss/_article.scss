@@ -1,0 +1,26 @@
+@use "variables" as *;
+
+@at-root {
+
+  
+  article {
+    font-size: 14px;
+    @media screen and (min-width: 992px) {
+      font-size: 16px;
+    }
+
+    img {
+      width: 100%;
+    }
+
+    h1 {
+      font-weight: 700;
+      font-size: 23px;
+      font-family: var(--font-exo2);
+
+      @media screen and (min-width: 992px) {
+        font-size: 26px;
+      }
+    }
+  }
+}
